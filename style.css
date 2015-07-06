@@ -1,0 +1,240 @@
+/* Global Formatting */
+html {
+	min-height: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-size: 16px;
+	background-color: #FCFCFC;
+	overflow: auto;
+	height: 100%;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Layout */
+
+.main {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -45px;
+}
+
+header {
+	height: auto;
+	background: #0A0A0A;
+}
+
+nav div {
+	display: inline;
+}
+
+.right {
+	float: right;
+	width: 85%;
+	height: 65%;
+	margin-left: -1px;
+	border-left: 1px solid #0A0A0A;
+}
+
+.left {
+	float: left;
+	width: 15%;
+	min-width: 150px;
+}
+
+.body_copy {
+	margin-bottom: 45px;
+}
+
+footer, .push {
+
+	width: 100%;
+	height: 45px;
+	clear: both;
+}
+
+.push {
+	height: 0;
+}
+
+footer {
+
+	background-color: #0A0A0A;
+	color: #636363;
+}
+
+.twitter {
+
+	text-align: center;
+	padding: 4em 4em 4em 2em;
+	margin-bottom: 5px;
+}
+
+
+/* Genearl Styles */
+
+a {
+	text-decoration: none;
+	color: #636363;
+}
+
+a:hover {
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+}
+
+li {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	padding: 10px;
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: normal;
+	margin: .25em;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: normal;
+	margin: .25em;
+}
+
+p {
+	font-family: 'PT Serif', serif;
+	padding: 0 2em 0 2em;
+	line-height: 1.5;
+	max-width: 900px;
+	margin: 1em auto;
+}
+
+.contact_info p {
+	font-size: 1.5em;
+}
+
+footer p {
+	margin: 0;
+	padding: 10px 5px 0 10px;
+	font-size: .75em;
+}
+
+footer a:hover {
+	color: #FCFCFC;
+}
+
+/* Blog */
+
+.article {
+	display: block;
+	margin: 1em auto 2em;
+	padding: 0.5em 2.5em;
+	outline: solid thin #0A0A0A;
+	max-width: 950px;
+	/* background: #F7F7F7; */
+}
+
+.date {
+	font-family: 'PT Serif', serif;
+	text-align: center;
+	color: black;
+	font-size: 1.25em;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------
+Media Queries
+------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1017px) {
+
+	.left {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+
+	.right {
+		width: 100%;
+		clear: left;
+	}
+
+	.title {
+		padding-right: 0;
+	}
+
+	.twitter {
+		padding: 4em 2em;
+		text-align: center;
+	}
+
+	ul {
+		border-bottom: 1px solid #0A0A0A;
+	}
+
+	li {
+		display: inline-block;
+	}
+}
+
+@media (max-width: 543px) {
+
+	header img {
+		
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	ul { 
+		padding: 0 1em;
+		margin: .5em 0;
+	}
+
+	nav div {
+		display: block;
+	}
+
+	li {
+		font-size: 1.5em;
+		padding: 5px 10px; 
+	}
+
+		.contact_info p {
+		font-size: 1em;
+	}
+}
+
+
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/

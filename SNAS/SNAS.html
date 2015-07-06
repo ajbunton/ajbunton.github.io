@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="SNAS.css">
+<link rel="shortcut icon" href="/Images/MelsieIcon.png" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#emergency").click(function(){
+		$(this).html("Oh Shits!");
+		$("#melsieAttack").show("blind", function(){$("body").effect("bounce", {times:3}, "normal")})
+		setTimeout(function(){
+			$("#emergency").html("Activate"); 
+			$("#melsieAttack").hide("slide");
+			},2500);
+	})
+});
+</script>
+<title>Something Negative About Scotland</title>
+</head>
+
+<body>
+    <div class="main">
+	<!--Header-->
+    	<div class="topBar">
+        </div>
+        
+    	<div class="header">
+    		<h1>Something Negative <br/> About Scotland</h1>
+            <ul class="nav">
+                <li><a href="SNAS.html">Home</a></li>
+            	<li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+            </ul>
+        </div>
+        
+        <!--Right Column-->    
+        <div class="right">
+        	<ul class="rightMenu">
+                <li>More Stuff:</li>
+                <li><a href="damn.html">SNAS: DAMN</a></li>
+                <li><a href="advisory.html">Parental Advisory</a></li>
+                <li><a href="gigs.html">Gig History</a></li>
+                <li><a href="praise.html">Critics Praise</a></li>
+                <li><a href="hire.html">Hire SNAS</a></li>
+            </ul>
+            <div>
+            	<img class="flag" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/800px-Flag_of_Scotland.svg.png">
+            </div>
+            <div class="moreStuff">
+            </div>
+            <div class="moreStuff melsie">
+            Melsie Attack Early Response System<br /> - Use Only in Emergency
+            	<button id="emergency">Activate</button>
+            </div>
+            <div id="melsieAttack">
+            	<img src="Images/Melsie-full.png" />
+            </div>
+        </div>
+        
+        <!--Begin Main Body Content-->
+        
+        <div class="left">
+        	<div class="mainContent">
+            	<h2>A band that used to exist</h2>
+                <p>Something Negative About Scotland, better known by the acronym SNAS, was a band that rocked the hearts and souls of Kochi, Japan from 2008 to 2009-ish. In the end, the intense spotlight of relative anonymity proved too much, and now bandmembers Andrew Durham, Noah Brennan, and Andrew Bunton are spread around the world.</p>
+                <h2>Reimagining</h2>
+                <p>In the summer of 2012, the stars aligned, and technology finally caught up to SNAS's ambitions.  Using the latest digital and cloud-based computing technologies, SNAS reformed as a Decentralized, Asychronous Music Network.  Laides and Gentlemen, welcome to the SNAS: DAMN era!</p>
+                <p>So what does this SNAS: DAMN business actually mean?  Well, thanks to the marvels of cloud computing and modern technology, Noah and the two Andrews can still collaborate as a band to make rockin music, despite the geographic and time differences.  No two members of SNAS need to work on any one song at the same time or at the same place.  Each individual track of a song will be recorded independently and mixed into one final recording.</p>
+                <p>How will this work; will this even work?  We have no idea, but we're going to try!   We're pretty much making it up as we go at this point.</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <!--Footer-->
+    <div class="push"></div>
+
+    <footer>
+    	<p><a href="mailto:snas.rock@gmail.com?Subject=SNAS%20Fan%20Mail">Contact SNAS</a></p>
+        <p>Design: Sexy Andrew - 2012-2015</p>
+    </footer>
+
+
+</body>
+</html>

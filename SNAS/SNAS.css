@@ -1,0 +1,435 @@
+/*Header, Top Nav, and Global Settings */
+html, body{
+	height: 100%;
+}
+
+body {
+	background-color:#EAEAEA;
+}
+
+div.topBar {
+	height:35px;
+	background-color:black;
+}
+
+div.header {
+	width:80%;
+}
+
+h1 {
+	font-family:Impact, Impact, Charcoal, sans-serif;
+	font-weight:800;
+	font-size:5em;
+	text-transform:uppercase;	
+	margin:.5em 0 .25em 0;
+	padding-left:.25em;
+	line-height:85%;
+	padding-bottom:.25em;
+}
+
+h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-transform:capitalize;
+	margin: .5em .5em .5em .5em;
+}
+
+h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin: .5em .5em .5em .5em;
+}
+
+h4 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin: .5em .5em .5em .5em;
+}
+
+p {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	padding:.5em .5em .5em .5em;
+}
+
+a {
+	text-decoration:none;
+	color:#A02121;
+}
+
+.main {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -90px;
+}
+
+ul.nav {
+	margin:0;
+	padding:0;
+	border-bottom:solid;
+	border-bottom-width:thick;
+	display:inline;
+}
+
+ul.nav li {
+	display:inline;
+	padding:0 .75em 0 .75em;
+	text-transform:uppercase;	
+}
+
+ul.nav li:hover {
+	z-index: 100;
+	border-bottom:inherit;
+	border-bottom-color:#A02121;
+}
+
+ul.nav li a{
+	list-style:none;
+	font-family:Impact, Impact, Charcoal, sans-serif;
+	font-weight:800px;
+	font-size:2em;
+	text-decoration:none;
+	color:black;
+}
+
+/*Right Side Menu*/
+
+div.right {
+	width:35%;
+	float:right;
+}
+
+ul.rightMenu {
+	padding:0;
+	margin:0;
+	margin-left:.25em;
+	margin-top:1em;
+}
+
+ul.rightMenu li {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	list-style:none;
+	border-bottom: solid #999 1px;
+	padding:.25em 0 .25em .5em;
+	margin-right:.5em;
+}
+
+ul.rightMenu li:first-child {
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:.25em 0 .25em 0;
+}
+
+ul.rightMenu li a {
+	text-decoration:none;
+	color:#A02121;
+}
+
+ul.rightMenu li a:hover {
+	font-weight:bold;
+}
+
+div.right p {
+	margin-left:.25em;
+	margin-top:.5em;
+}
+
+img.flag {
+	height:75px;
+	width:97%;
+	border:solid 5px rgba(169,169,169,.5);
+	margin: 1em .5em 1em 0;
+}
+
+/*Main Body Content*/
+
+div.left {
+	width:65%;
+	display:inline;
+	float:left;
+}
+
+div.mainContent {
+	background:white;
+	border:solid 5px rgba(169,169,169,.5);
+	margin: 1em 1em .5em 0;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+
+
+/*Melsie Alert Button*/
+.melsie {
+	color:#A02121;
+	border:solid 5px rgba(169,169,169,.5);
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	background:white;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	box-shadow: 3px 3px 5px 5px #666;
+	-moz-box-shadow: 3px 3px 5px 5px #666;
+	-webkit-box-shadow: 3px 3px 5px 5px #666;
+	padding-left:3px;
+	margin:1em 0 0 .25em;
+	width:80%;
+	max-width: 330px;
+}
+
+#emergency {
+	background-color:red;
+	color:white;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:8px;
+	display:inline;
+	margin-left:5px;
+	padding:0 3px 0 3px;
+}
+
+#melsieAttack {
+	position:relative;
+	bottom:375px;
+	right:500px;
+	width:661px;
+	height:462px;
+	z-index:0;
+	border:solid 5px rgba(169,169,169,.5);
+	margin: 1em .5em 1em 0;
+	display:none;
+}
+
+/*Footer*/
+
+footer, .push {
+
+	width: 100%;
+	height: 90px;
+	clear: both;
+}
+
+.push {
+	height: 0;
+}
+
+footer {
+	background-color: black;
+}
+
+footer p {
+	color:#999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+footer a {
+	text-decoration:none;
+	color:white;
+}
+
+footer a:hover {
+	color:#A02121;
+}
+
+/*Critics Praise & Lists*/
+
+dl {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	padding:.5em .5em .5em .5em;
+}
+
+div.mainContent ul{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	padding:.5em .5em .5em .5em;
+}
+
+div.mainContent ul li{
+	margin:.5em 0 .25em 2.5em;
+	list-style-type:square;
+	color:#A02121;
+}
+
+div.mainContent ul li span {
+	color:black;
+}
+
+dd {
+	margin:.5em 0 .25em 2.5em;
+}
+
+dt{
+	padding:1.5em 0 .25em .5em;
+}
+
+/*Blog*/
+
+div.blog {
+	background:white;
+	border:solid 5px rgba(169,169,169,.5);
+	margin: 1em 1em .5em 0;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	line-height:105%;
+}
+
+div.blog ul {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	padding:.5em .5em .5em .5em;
+}
+
+div.blog ul li {
+	margin:.5em 0 .25em 2.5em;
+	font-size:smaller;
+	line-height:80%;
+	list-style:square;
+}
+
+div.blog span {
+	color:white;
+	background-color:#A02121;
+	position:relative;
+	left:80%;
+	font-family:Impact, Impact, Charcoal, sans-serif;
+	border:solid 3px #999;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	padding:.5em;
+}
+
+div.blog h3 {
+	margin-top:5px;
+}
+
+/*Music*/
+div.music {
+	margin-top:1em;
+}
+
+div.info {
+	display:none;
+	padding-left:2em;
+}
+
+div.music h4 {
+	padding-left: 1.5em;
+}
+
+div.music h4:hover {
+	color:#A02121;
+}
+
+/*Sliding Info Boxes*/
+
+.arrow {
+	display:inline-block;
+	float:left;
+	margin:.25em .5em 0 .5em;
+	background-image: url(/Images/down_arrow_red.png);
+	width:13px;
+	height:7px;
+}
+
+.up {
+	display:inline;
+	float:left;
+	margin:.25em .5em 0 .5em;
+	background-image:url(/Images/up_arrow_red.png);
+	width:13px;
+	height:7px;
+}
+
+.showAll {
+	display:inline;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin-left:1em;
+	padding-right:.25em;
+	color:#A02121;
+}
+
+.hideAll {
+	display:inline;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#A02121;
+}
+
+.showAll:hover {
+	text-decoration:underline;
+}
+
+.hideAll:hover {
+	text-decoration:underline;
+}
+
+audio {
+	padding:.5em .5em .5em .5em;
+}
+
+/*------------------------------------------------------------------------------------------------------------------
+Media Queries
+------------------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 980px) {
+
+	div.header{
+		width: 100%
+	}
+
+	div.right {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	ul.rightMenu li{
+		display: inline-block;
+		border-bottom: none;
+		margin: 0;
+	}
+
+	ul.rightMenu li a:hover{
+		text-decoration: underline;
+		font-weight: normal;
+	}
+
+	img.flag {
+		width: 99%;
+	}
+
+	.melsie{
+		display: none;
+	}
+
+	div.left {
+		display: block;
+		width: 100%;
+	}
+
+	div.mainContent{
+		margin-top: 0;
+		margin-right: 0;
+	}
+
+
+
+}
+
+
+
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/

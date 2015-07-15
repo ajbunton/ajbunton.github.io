@@ -333,7 +333,7 @@ div.music h4:hover {
 	display:inline-block;
 	float:left;
 	margin:.25em .5em 0 .5em;
-	background-image: url(/Images/down_arrow_red.png);
+	background-image: url(/SNAS/Images/down_arrow_red.png);
 	width:13px;
 	height:7px;
 }
@@ -342,7 +342,7 @@ div.music h4:hover {
 	display:inline;
 	float:left;
 	margin:.25em .5em 0 .5em;
-	background-image:url(/Images/up_arrow_red.png);
+	background-image:url(/SNAS/Images/up_arrow_red.png);
 	width:13px;
 	height:7px;
 }
@@ -419,9 +419,11 @@ Media Queries
 		margin-top: 0;
 		margin-right: 0;
 	}
+}
 
+@media(max-width: 395px){
 
-
+	
 }
 
 
